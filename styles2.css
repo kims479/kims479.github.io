@@ -1,7 +1,6 @@
 body {
     background-color: #212225;
     font-family: Bebas, Futura, Helvetica;
-    font-size: 30px;
     color: #E9E9E9;
     text-align: center;
 }
@@ -11,6 +10,11 @@ a {
     text-decoration: none;
 }
 
-.assignments {
-    background-color: #393b40;
+p {
+    font-family: Gill Sans, Helvetica;
+    text-align: left;
+}
+
+.special {
+    text-align: center;
 }
