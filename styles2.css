@@ -18,3 +18,13 @@ p {
 .special {
     text-align: center;
 }
+
+.top {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    left: 100px;
+    bottom: 200px;
+    transform: rotate(2deg);
+}
