@@ -1,6 +1,6 @@
 body {
     background-color: #212225;
-    font-family: Bebas, Futura, Helvetica;
+    font-family: Bebas, Helvetica;
     font-size: 30px;
     color: #E9E9E9;
     text-align: center;
@@ -11,6 +11,6 @@ a {
     text-decoration: none;
 }
 
-.special {
-    background-color: #393b40;
+p {
+    text-align: center; 
 }
