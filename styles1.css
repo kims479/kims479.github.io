@@ -2,7 +2,6 @@ body {
     background-color: #B0C4DE;
     font-family: Avenir, Helvetica Light, Helvetica;
     font-size: 20px;
-    color: #E9E9E9;
     text-align: center;
 }
 
@@ -14,6 +13,7 @@ a {
     border-color: #C2F0FF;
     border-width: 1px;
     font-size: 20px;
+    text-align: center;
 }
 
 a:hover {
@@ -31,20 +31,6 @@ ul {
 li {
     float: left;
 }
-
-p {
-    text-align: center; 
-    column-count: 3;
-}
-
-/* h1 { 
-   color: #B0C4DE; 
-   background: #F0F8FF;
-   padding: 10px; 
-   top: 50%;
-   text-align: center;
-   position: relative;
-} */
 
 .circle{
     background-color: #C2F0FF;
