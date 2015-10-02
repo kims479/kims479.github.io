@@ -1,0 +1,64 @@
+body{
+    font-family: Gill Sans, Helvetica;
+    text-align: left;
+    background-color: #C2F0FF;
+}
+    
+div{
+    background-image: 
+    radial-gradient(circle at 100% 150%, #e0e8ff 24%, black 25%, black 28%, #e0e8ff 29%, #e0e8ff 36%, black 36%, black 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #e0e8ff 24%, black 25%, black 28%, #e0e8ff 29%, #e0e8ff 36%, black 36%, black 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, black 10%, #e0e8ff 11%, #e0e8ff 23%, black 24%, black 30%, #e0e8ff 31%, #e0e8ff 43%, black 44%, black 50%, #e0e8ff 51%, #e0e8ff 63%, black 64%, black 71%, transparent 71%, transparent);
+}
+
+
+.circle{
+    background-color: #C2F0FF;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    border-radius: 50px;
+}
+
+.circle{
+    background-color: #C2F0FF;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    border-radius: 50px;
+}
+
+.circle{
+    background-color: #C2F0FF;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 150px;
+    left: 500px;
+    border-radius: 50px;
+}
+
+.circle{
+    background-color: #C2F0FF;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 2000px;
+    left: 700px;
+    border-radius: 50px;
+}
+
+
+.circle{
+    background-color: #C2F0FF;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 250px;
+    left: 300px;
+    border-radius: 50px;
+}
