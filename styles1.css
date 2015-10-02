@@ -1,8 +1,5 @@
 body {
     background-color: #B0C4DE;
-    font-family: Avenir, Helvetica Light, Helvetica;
-    font-size: 20px;
-    text-align: center;
 }
 
 a {
@@ -10,8 +7,7 @@ a {
     width: 200px;
     color: #F0F8FF;
     text-decoration: none;
-    border-color: #C2F0FF;
-    border-width: 1px;
+    font-family: Avenir, Helvetica Light, Helvetica;
     font-size: 20px;
     text-align: center;
 }
@@ -23,7 +19,7 @@ a:hover {
 
 ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
     overflow: hidden;
 }
@@ -32,7 +28,7 @@ li {
     float: left;
 }
 
-.circle{
+.circle {
     background-color: #C2F0FF;
     width: 200px;
     height: 200px;
