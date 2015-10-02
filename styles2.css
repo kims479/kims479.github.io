@@ -1,6 +1,6 @@
 body {
     background-color: #212225;
-    font-family: Bebas, Futura, Helvetica;
+    font-family: Avenir, Helvetica Light, Helvetica;
     color: #E9E9E9;
     text-align: center;
 }
@@ -11,7 +11,7 @@ a {
 }
 
 p {
-    font-family: Gill Sans, Helvetica;
+    font-family: Avenir, Helvetica Light, Helvetica;
     text-align: left;
 }
 
