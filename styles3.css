@@ -13,23 +13,24 @@ div{
 
 
 .circle1{
-    background-color: #C2F0FF;
+
+    top: 5%;
+    left: 10%;
+}
+
+.basecircle {
+        background-color: #C2F0FF;
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 5%;
-    left: 10%;
-    border-radius: 50px;
+        border-radius: 50px;
+
 }
 
 .circle2{
-    background-color: #C2F0FF;
-    width: 100px;
-    height: 100px;
-    position: fixed;
+
     top: 20%;
     left: 50%;
-    border-radius: 50px;
 }
 
 .circle3{

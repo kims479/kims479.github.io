@@ -1,16 +1,25 @@
 body {
-    background-color: #212225;
-    font-family: Bebas, Futura, Helvetica;
-    font-size: 30px;
+    background-color: #B0C4DE;
+    font-family: Bebas, Futura, Helvetica Light;
+    font-size: 10px;
     color: #E9E9E9;
     text-align: center;
 }
 
 a {
-    color: #C2F0FF;
+    color: #696969;
     text-decoration: none;
 }
 
 p {
     text-align: center; 
+}
+
+h1 { 
+   color: #B0C4DE; 
+   background: #F0F8FF;
+   padding: 10px; 
+   top: 40%;
+   alignment-adjust: center;
+   position: absolute;
 }
