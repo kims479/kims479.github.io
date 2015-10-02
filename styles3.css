@@ -1,65 +1,41 @@
-body{
-    font-family: Gill Sans, Helvetica;
-    text-align: left;
-    background-color: #C2F0FF;
+body {
+    background-color: #808080;
 }
     
-div{
+div {
     background-image: 
     radial-gradient(circle at 100% 150%, #e0e8ff 24%, black 25%, black 28%, #e0e8ff 29%, #e0e8ff 36%, black 36%, black 40%, transparent 40%, transparent),
     radial-gradient(circle at 0    150%, #e0e8ff 24%, black 25%, black 28%, #e0e8ff 29%, #e0e8ff 36%, black 36%, black 40%, transparent 40%, transparent),
     radial-gradient(circle at 50%  100%, black 10%, #e0e8ff 11%, #e0e8ff 23%, black 24%, black 30%, #e0e8ff 31%, #e0e8ff 43%, black 44%, black 50%, #e0e8ff 51%, #e0e8ff 63%, black 64%, black 71%, transparent 71%, transparent);
 }
 
-
-.circle1{
-
-    top: 5%;
-    left: 10%;
+p {
+    font-family: Avenir, Helvetica Light, Helvetica;
+    font-size: 9px;
+    text-align: center;
+    color: #E6E6E6;
 }
 
 .basecircle {
-        background-color: #C2F0FF;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-        border-radius: 50px;
-
-}
-
-.circle2{
-
-    top: 20%;
-    left: 50%;
-}
-
-.circle3{
     background-color: #C2F0FF;
     width: 100px;
     height: 100px;
-    position: fixed;
-    top: 60%;
-    left: 30%;
     border-radius: 50px;
+
 }
 
-.circle4{
-    background-color: #C2F0FF;
+.repeat1 {
+    background-color: #FFB6C1;
     width: 100px;
     height: 100px;
-    position: fixed;
-    top: 65%;
-    left: 90%;
     border-radius: 50px;
+    display: inline-block;
+    margin: 20px;
 }
 
-
-.circle5{
+.repeat1:hover {
     background-color: #C2F0FF;
     width: 100px;
     height: 100px;
-    position: fixed;
-    top: 15%;
-    left: 95%;
     border-radius: 50px;
 }
