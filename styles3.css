@@ -16,19 +16,11 @@ p {
     color: #E6E6E6;
 }
 
-.basecircle {
-    background-color: #C2F0FF;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-
-}
-
 .repeat1 {
     background-color: #FFB6C1;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
     display: inline-block;
     margin: -10px;
     opacity: 0.9;
@@ -36,8 +28,8 @@ p {
 
 .repeat1:hover {
     background-color: #C2F0FF;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
     opacity: 1;
 }
