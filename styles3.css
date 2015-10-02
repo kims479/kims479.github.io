@@ -37,28 +37,28 @@ div{
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 150px;
-    left: 500px;
+    top: 60%;
+    left: 30%;
     border-radius: 50px;
 }
 
-.circle{
+.circle4{
     background-color: #C2F0FF;
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 2000px;
-    left: 700px;
+    top: 65%;
+    left: 90%;
     border-radius: 50px;
 }
 
 
-.circle{
+.circle5{
     background-color: #C2F0FF;
     width: 100px;
     height: 100px;
     position: fixed;
-    top: 250px;
-    left: 300px;
+    top: 15%;
+    left: 95%;
     border-radius: 50px;
 }
