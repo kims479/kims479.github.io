@@ -1,34 +1,19 @@
-/**var star = "*";
+var symbols1 = ["~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~"];
+var symbols2 = ["!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!","!"];
 
-for (var myVar = 0; myVar <= 4; myVar++) {
-  star = star + "*";
-  console.log(star);
-  
-  var star2 = "~";
+var pattern = "~";
+var star ="*";
 
-  for (var myVar2 = 0; myVar2 < 10; myVar2++) {
-    star2 = star2 + "~";
-    if (myVar2 == 10) {
-      star2 = "~";
-    }
-    console.log(star2);
+  for (var increment = 0; increment < symbols1.length; increment++) {
+    pattern = pattern + symbols1[increment];
   }
-}
-**/
 
-var symbols = ["~","~","~","~","~","~","~","~","~","~","~","~","~","~","~","~"]
+  for (var increment = 0; increment < symbols2.length; increment++) {
+    star = star + symbols2[increment];
+  }
 
-var pattern = "+";
-
-for (var increment = 0; increment < symbols.length; increment++) {
-    console.log(pattern);
-    pattern = pattern + symbols[increment];
-    var exclaim = "!";
-    console.log(increment);
-    if (increment > 5) {
-        for (var another = 0; another < 10; another++) {
-            console.log(exclaim);
-            exclaim = exclaim + "&";
-        }
-    }
-}
+    symbols2.reverse();
+    
+  for (var increment = 0; increment < symbols1.length; increment++) {
+    console.log(symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],)
+  }
