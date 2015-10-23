@@ -1,7 +1,7 @@
-var star = "+";
+var star = "*";
 
 for (var myVar = 0; myVar <= 4; myVar) {
-  star = star + "+";
+  star = star + "*";
   console.log(star);
   
   var star2 = "~";
