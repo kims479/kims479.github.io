@@ -1,4 +1,4 @@
-var star = "*";
+/**var star = "*";
 
 for (var myVar = 0; myVar <= 4; myVar++) {
   star = star + "*";
@@ -14,16 +14,13 @@ for (var myVar = 0; myVar <= 4; myVar++) {
     console.log(star2);
   }
 }
+**/
 
+var symbols = "~";
 
-/**var symbols = ["~", "~", "~", "-","-", "~", "~", "*","*", "*", "~", "~","~", "-", "-", "~", "~", "~", "~", "!",];
+var pattern = "+";
 
-console.log(symbols);
-
-var pattern = "++++++"; 
-console.log(pattern);
-
-for (var increment = 20; increment > symbols.length; increment++) {
+for (var increment = 10; increment < symbols.length; increment++) {
   console.log(pattern);
   pattern = pattern + symbols[increment];
   var star = "+";
@@ -35,4 +32,4 @@ for (var increment = 20; increment > symbols.length; increment++) {
     }
   }
 }
-**/
+
