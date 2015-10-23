@@ -22,8 +22,7 @@ var star3 = "!";
     star3 = star3 + "!";
   }
   
-        
-        symbols3.reverse();
+  symbols3.reverse();
     
   for (var increment = 0; increment < 20; increment++) {
     console.log(symbols3[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols3[increment]);
