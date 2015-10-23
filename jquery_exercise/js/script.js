@@ -15,15 +15,12 @@ $("#toggle").click(function() {
                 $("#status").mouseenter(function() {
                     $("#cat").show("cat");
                 });
-        
-        
-        clicked = true;
-    } else {
-         //part3
                 $("#status").mouseleave(function() {
                     $("#cat").hide("cat");
                 });
         
+        clicked = true;
+    } else {
         $("#status").html("STOP").css("background-color","red");
         $(this).html("Start");
         clicked = false;
@@ -31,6 +28,8 @@ $("#toggle").click(function() {
 });
 
 //part3 look above inside part 2 if-else statement
+
+
 
 /*
 
