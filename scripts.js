@@ -16,19 +16,19 @@ for (var myVar = 0; myVar <= 4; myVar++) {
 }
 **/
 
-var symbols = "~";
+var symbols = ["~", "~", "~", "~", "~", "~", "~", "~", "~", "~"];
 
 var pattern = "+";
 
-for (var increment = 10; increment < symbols.length; increment++) {
+for (var increment = 0; increment < symbols.length; increment++) {
   console.log(pattern);
   pattern = pattern + symbols[increment];
-  var star = "+";
+  var star = "*";
   console.log(increment);
-  if (increment > 5) {
+  if (increment > 9) {
     for (var another = 0; another < 10; another++) {
       console.log(star);
-      star = star + "+";
+      star = star * "*";
     }
   }
 }
