@@ -23,6 +23,14 @@ $("#toggle").click(function() {
     } else {
         $("#status").html("STOP").css("background-color","red");
         $(this).html("Start");
+        
+            $("#status").mouseenter(function() {
+                    $("#cat").hide("cat");
+                });
+            $("#status").mouseleave(function() {
+                    $("#cat").hide("cat");
+                });
+        
         clicked = false;
     }
 });
