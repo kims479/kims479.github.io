@@ -15,5 +15,5 @@ var star ="*";
     symbols2.reverse();
     
   for (var increment = 0; increment < symbols1.length; increment++) {
-    console.log(symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],)
+    console.log(symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment],symbols1[increment],symbols2[increment]);
   }
