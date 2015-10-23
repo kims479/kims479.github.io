@@ -1,16 +1,15 @@
-/**example**/
-var star = ".";
+var star = "\";
 
-for (var myVar = 8; myVar <= 10; myVar++) {
+for (var myVar = 1; myVar <= 15; myVar++) {
   star = star + ".";
   console.log(star);
   
-  var star2 = "";
+  var star2 = "~";
 
   for (var myVar2 = 0; myVar2 < 20; myVar2++) {
-    star2 = star2 + "R";
+    star2 = star2 + "~";
     if (myVar2 == 10) {
-      star2 = "R";
+      star2 = "~";
     }
     console.log(star2);
   }
@@ -33,7 +32,7 @@ for (var myVar = 8; myVar <= 10; myVar++) {
 ...................\::::::::::::::::::::::\
 
 
-console.log("Hello World");
+/**console.log("Hello World");
 console.log("yo");
 
 var symbols = ["*", "$", "#", "@","*", "$", "#", "@","*", "$", "#", "@","*", "$", "#", "@","*", "$", "#", "@",];
@@ -53,3 +52,4 @@ for (var increment = 1; increment < symbols.length; increment++) {
   }
 }
 
+**/
