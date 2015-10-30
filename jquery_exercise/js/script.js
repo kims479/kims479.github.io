@@ -4,16 +4,6 @@ var clicked = false;
 $("#pirate").remove();
 $("body").addClass("gradient");
 
- //part3
-$("#status").mouseenter(function() {
-    if (clicked == true);
-    $("#cat").show("cat");
-});
-$("#status").mouseleave(function() {
-     if (clicked == true);
-    $("#cat").hide("cat");
-}); 
-
 //part2
 $("#toggle").click(function() {
     if (clicked == false) {
@@ -28,8 +18,17 @@ $("#toggle").click(function() {
     }
 });
 
-//part3 look above inside part 2 if-else statement
 
+//part3
+$("#status").mouseenter(function() {
+    if (clicked == true){
+    $("#cat").show();
+    }
+});
+
+$("#status").mouseleave(function() {
+    $("#cat").hide();
+});
 
 
 /*
