@@ -4,15 +4,15 @@ var clicked = false;
 $("#pirate").remove();
 $("body").addClass("gradient");
 
-     //part3
-               $("#status").mouseenter(function() {
-                    if (clicked == false);
-                    $("#cat").show("cat");
-                });
-                $("#status").mouseleave(function() {
-                     if (clicked == false);
-                    $("#cat").hide("cat");
-                }); 
+ //part3
+$("#status").mouseenter(function() {
+    if (clicked == true);
+    $("#cat").show("cat");
+});
+$("#status").mouseleave(function() {
+     if (clicked == true);
+    $("#cat").hide("cat");
+}); 
 
 //part2
 $("#toggle").click(function() {
