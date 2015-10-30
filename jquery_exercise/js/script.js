@@ -6,9 +6,11 @@ $("body").addClass("gradient");
 
      //part3
                $("#status").mouseenter(function() {
+                    if (clicked == false);
                     $("#cat").show("cat");
                 });
                 $("#status").mouseleave(function() {
+                     if (clicked == false);
                     $("#cat").hide("cat");
                 }); 
 
@@ -18,20 +20,8 @@ $("#toggle").click(function() {
         $("#status").html("GO").css("background-color","green");
         $(this).html("Stop");
         //this means #toggle
-        
-           
-        
         clicked = true;
     } else {
-        
-                //part 3
-           //     $("#status").mouseenter(function() {
-             //       $("#cat").hide("cat");
-               // });
-                //$("#status").mouseleave(function() {
-                  //  $("#cat").hide("cat");
-            //    }); 
-                
         $("#status").html("STOP").css("background-color","red");
         $(this).html("Start");
         clicked = false;
