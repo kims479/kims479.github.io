@@ -4,6 +4,14 @@ var clicked = false;
 $("#pirate").remove();
 $("body").addClass("gradient");
 
+     //part3
+               $("#status").mouseenter(function() {
+                    $("#cat").show("cat");
+                });
+                $("#status").mouseleave(function() {
+                    $("#cat").hide("cat");
+                }); 
+
 //part2
 $("#toggle").click(function() {
     if (clicked == false) {
@@ -11,26 +19,21 @@ $("#toggle").click(function() {
         $(this).html("Stop");
         //this means #toggle
         
-                //part3
-                $("#status").mouseenter(function() {
-                    $("#cat").show("cat");
-                });
-                $("#status").mouseleave(function() {
-                    $("#cat").hide("cat");
-                });
+           
         
         clicked = true;
     } else {
+        
+                //part 3
+           //     $("#status").mouseenter(function() {
+             //       $("#cat").hide("cat");
+               // });
+                //$("#status").mouseleave(function() {
+                  //  $("#cat").hide("cat");
+            //    }); 
+                
         $("#status").html("STOP").css("background-color","red");
         $(this).html("Start");
-        
-            $("#status").mouseenter(function() {
-                    $("#cat").hide("cat");
-                });
-            $("#status").mouseleave(function() {
-                    $("#cat").hide("cat");
-                });
-        
         clicked = false;
     }
 });
