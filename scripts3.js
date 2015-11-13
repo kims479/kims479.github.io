@@ -1,6 +1,8 @@
 var clicked = false;
 
-$("#point").mouseenter(function() {
+$("body").addClass("#point");
+
+$("body").mouseenter(function() {
     if (clicked == true){
     $("#blue").show();
     }
@@ -9,3 +11,4 @@ $("#point").mouseenter(function() {
 $("#point").mouseleave(function() {
     $("#blue").hide();
 });
+

@@ -14,14 +14,25 @@ body, html {
 }
 
 #point {
+    background-image: url("page4image2.png");
+    background-position: center center;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background: none;
     size: cover;
     position: fixed;
-    display: none;
+   
 }
 
 #blue {
+    background-image: url("page2image3.jpg");
+    background-position: center center;
     position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: none;
 
 }
