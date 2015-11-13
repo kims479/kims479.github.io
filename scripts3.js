@@ -1,16 +1,15 @@
 var clicked = false;
 
+
 $("body").addClass("#point");
 
-$("#point").mouseenter(function() {
+$("#toggle").click(function() {
+    console.log("clicked");
     if (clicked == false) {
         $("#blue").show();
-
         clicked = true;
     } else {
         $("#blue").hide();
         clicked = false;
     }
 });
-
-//can't get this to work

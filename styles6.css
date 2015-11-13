@@ -1,5 +1,5 @@
 body, html {
-   background-image: url("page4image1.jpeg");
+    background-image: url("page4image1.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,6 +8,10 @@ body, html {
     background-color: black;
     color: white;
     z-index: 0;
+    font-family: Avenir;
+    font-size: 40px;
+    text-align: center;
+
 }
 
 .wrapper {
@@ -21,20 +25,35 @@ body, html {
     background-attachment: fixed;
     background-size: cover;
     background: none;
-    border: 0px;
-    top: 1%;
-    left: -3%;
+    position: fixed;
+    top: -33%;
+    left: 0%;
     z-index: 1;
     width: 100%;
+    border: 0px;
+    font-family: Avenir Light;
 }
 
 #blue {
-    background-image: url("page2image4.png");
+    background-image: url("page2image5.png");
     position: fixed;    
-    top: 38%;
-    left: 35%;
+    top: -33%;
+    left: 0%;
     z-index: 2;
+    width: 100%;
     display: none;
+}
+
+#toggle {
+    background-color: black;
+    font-family: Avenir;
+    color: white;
+    border: 0px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index:1000;
+  
 }
 
 #snow{
@@ -68,9 +87,4 @@ body, html {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-
-#keys {
-	background-color: white;
-	width: 100%;
 }
