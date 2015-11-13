@@ -1,11 +1,13 @@
 body, html {
-    background-image: url("page4image1.jpeg");
+   background-image: url("page4image1.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     background-color: black;
+    color: white;
+    z-index: 0;
 }
 
 .wrapper {
@@ -15,26 +17,24 @@ body, html {
 
 #point {
     background-image: url("page4image2.png");
-    background-position: center center;
-    position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background: none;
-    size: cover;
-    position: fixed;
-   
+    border: 0px;
+    top: 1%;
+    left: -3%;
+    z-index: 1;
+    width: 100%;
 }
 
 #blue {
-    background-image: url("page2image3.jpg");
-    background-position: center center;
-    position: fixed;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url("page2image4.png");
+    position: fixed;    
+    top: 38%;
+    left: 35%;
+    z-index: 2;
     display: none;
-
 }
 
 #snow{
@@ -46,7 +46,7 @@ body, html {
 	top: 0;
 	width: 100%;
 	z-index:1;
-	-webkit-animation: snow 10s linear infinite;
+	-webkit-animation: snow 15s linear infinite;
 	-moz-animation: snow 10s linear infinite;
 	-ms-animation: snow 10s linear infinite;
 	animation: snow 10s linear infinite;
@@ -68,4 +68,9 @@ body, html {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+#keys {
+	background-color: white;
+	width: 100%;
 }

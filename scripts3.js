@@ -2,13 +2,15 @@ var clicked = false;
 
 $("body").addClass("#point");
 
-$("body").mouseenter(function() {
-    if (clicked == true){
-    $("#blue").show();
+$("#point").mouseenter(function() {
+    if (clicked == false) {
+        $("#blue").show();
+
+        clicked = true;
+    } else {
+        $("#blue").hide();
+        clicked = false;
     }
 });
 
-$("#point").mouseleave(function() {
-    $("#blue").hide();
-});
-
+//can't get this to work
