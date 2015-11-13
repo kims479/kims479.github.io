@@ -13,3 +13,14 @@ $("#toggle").click(function() {
         clicked = false;
     }
 });
+
+$("#hole").mouseenter(function() {
+    if (clicked == false){
+        $("#container").show();
+    }
+})
+
+$("#hole").mouseleave(function() {
+    $("#container).hide();")
+})
+
