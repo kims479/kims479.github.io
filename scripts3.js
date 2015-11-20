@@ -15,13 +15,18 @@ $("#toggle").click(function() {
     }
 });
 
-/**$("#hole").mouseenter(function() {
+$("#hole").mouseenter(function() {
     if (clicked == false){
-        $("#container").show();
+        $("#purple").show();
+        $("#toggle").hide();
+        clicked = true;
     }
 })
 
 $("#hole").mouseleave(function() {
-    $("#container").hide();
+     if (clicked == true){
+        $("#purple").hide();
+        $("#toggle").show();
+        clicked = false;
+     }
 })
-**/
