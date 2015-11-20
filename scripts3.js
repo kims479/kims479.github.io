@@ -1,5 +1,6 @@
 var clicked = false;
-
+var x = x;
+var y = y;
 
 $("body").addClass("#point");
 
@@ -14,13 +15,13 @@ $("#toggle").click(function() {
     }
 });
 
-$("#hole").mouseenter(function() {
+/**$("#hole").mouseenter(function() {
     if (clicked == false){
         $("#container").show();
     }
 })
 
 $("#hole").mouseleave(function() {
-    $("#container).hide();")
+    $("#container").hide();
 })
-
+**/

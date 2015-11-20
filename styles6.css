@@ -49,11 +49,15 @@ body, html {
 #purple {
     background-image: url("page2image4.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     background: none;
     position: fixed;
+    width: 2000px;
+    height: auto;
+    top: 0;
+    left: 0;
     z-index: 3;
+    margin: 0 auto;
+    max-width: 100%;
     display: none;
 }
 
@@ -63,6 +67,7 @@ body, html {
     font-size: 43px;
     color: #ff369b;
     border: 0px;
+    border-color: transparent;
     position: fixed;
     top: 25%;
     left: 22%;
@@ -71,11 +76,13 @@ body, html {
 
 #toggle:hover {
     border: 0px;
+    border-color: transparent;
     color: #000000;
 }
 
 #toggle:visited {
      border: 0px;
+     border-color: transparent;
      color: #ff369b; 
 }
 
