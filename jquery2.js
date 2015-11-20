@@ -10378,9 +10378,18 @@ window.onload = function() {
         ],
         image,
         loaded = 0;
-   
+    // very quick and dirty hack to load and display the first image asap
     images[0] = image = new Image();
+/**        image.onload = function() {
+            if (++loaded === 1) {
+                imagesLoaded();
+                for (var i = 1; i < 2; i++) {
+                    
 
+                    image.src = urls[i];
+                }
+            }
+        };**/
         image.src = urls[0];
 };
 
