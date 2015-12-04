@@ -1,5 +1,5 @@
 //the thing below represents # of rows & columns in your puzzle
-const scramble_rows = 20;
+const scramble_rows = 80;
 const scramble_columns = 20;
 
 //the thing below represents hovering color (color you get if u hover over the tile with another tile)
@@ -45,7 +45,7 @@ function setCanvas() {
     canvas = document.getElementById('canvas'); //using document to use entire document
     stage = canvas.getContext('2d');
 
-    canvas.position = "fixed";
+    canvas.position = "relative";
     canvas.width = pictureWidth;
     canvas.height = pictureHeight;
     canvas.style.border = "2px solid yellow";
@@ -163,9 +163,11 @@ function checkPieceClicked() {
     
     for(a=0; a<pieces.length; a++) {
         piece = pieces[a];
-        pieces.length = pieces.length / 1;
+        pieces.length = pieces.length -1;
         
-
+        if(pieces.length <= 0) {
+            initScramble();
+        }
         
     }
    
