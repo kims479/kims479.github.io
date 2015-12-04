@@ -1,5 +1,6 @@
 //the thing below represents # of rows & columns in your puzzle
-const scramble_rows = 4;
+const scramble_rows = 20;
+const scramble_columns = 20;
 
 //the thing below represents hovering color (color you get if u hover over the tile with another tile)
 const scramble_hovertint = '#1E9E1E';
@@ -30,10 +31,10 @@ function init() {
 //division calculates size of each piece, multiplication calculates total width & height of entire image.
 //carries out the event (e)
 function onImage(e) {
-    pieceWidth = Math.floor(img.width / scramble_rows);
+    pieceWidth = Math.floor(img.width / scramble_columns);
     pieceHeight = Math.floor(img.height / scramble_rows);
     pictureHeight = pieceHeight * scramble_rows;
-    pictureWidth = pieceWidth * scramble_rows;
+    pictureWidth = pieceWidth * scramble_columns;
     //below functions
     setCanvas(); 
     initScramble();
@@ -141,10 +142,8 @@ function onScrambleClick(e) {
         mouse.y = e.offsetY - canvas.offsetTop;
     }
     
-     currentPiece = checkPieceClicked();
-    
+    currentPiece = checkPieceClicked();
     if(currentPiece != null) {
-        currentPiece = checkPieceClicked();
         stage.clearRect(currentPiece.xPos, currentPiece.yPos, pieceWidth, pieceHeight);
         stage.fillStyle = scramble_hovertint;
         stage.fillRect(currentPiece.xPos, currentPiece.yPos, pieceWidth, pieceHeight);
@@ -152,31 +151,22 @@ function onScrambleClick(e) {
         stage.globalAlpha = .5; 
         stage.restore();    
     } 
-     
+
 }
 
 function checkPieceClicked() {
-    document.onmouseup = shuffleScramble;
     
+    document.onmouseup = shuffleScramble();
     var a;
+    var b;
     var piece;
     
     for(a=0; a<pieces.length; a++) {
         piece = pieces[a];
-       
-        if(mouse.x < piece.xPos || mouse.x > (piece.xPos + pieceWidth) || mouse.y < piece.yPos || mouse.y > (piece.yPos + pieceHeight)) {
-             piece.length = a - 1;
-        } else {
-            return piece;
-        }
+        pieces.length = pieces.length / 1;
+        
+
+        
     }
-    return null;
-}
-
-
-function gameOver(){
-    document.onmousedown = null;
-    document.onmousemove = null;
-    document.onmouseup = null;
-    initPuzzle();
+   
 }
