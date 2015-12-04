@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+#human {
+    display: none;
+    background-repeat: no-repeat;
+    left: 50%;
+    background-attachment: fixed;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+
+}
