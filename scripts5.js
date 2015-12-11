@@ -44,7 +44,6 @@ function onImage(e) {
 function setCanvas() {
     canvas = document.getElementById('canvas'); //using document to use entire document
     stage = canvas.getContext('2d');
-
     canvas.position = "relative";
     canvas.width = pictureWidth;
     canvas.height = pictureHeight;
