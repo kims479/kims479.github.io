@@ -1,0 +1,66 @@
+body,html {
+    background-color: black;
+
+}
+
+#circle {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}
+
+#circle:hover .bubble {
+    display: block;
+}
+
+#circle:hover .bubble1 {
+    display: block;
+}
+
+@keyframes example {
+    from {top: 400px;
+        opacity: 0;
+    }
+    to {top: -100px;
+        opacity: 1;
+    }
+}
+
+/* The element to apply the animation to */
+.bubble {
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    position:fixed;
+    top:400px;
+    display: none;
+}
+
+
+@keyframes example1 {
+    from {top: 300px; left: 700px;
+        opacity: 0;
+    }
+    to {top: -100px; left: 700px;
+        opacity: 1;
+    }
+}
+.bubble1 {
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    background-color: white;
+    animation-name: example1;
+    animation-duration: 3s;
+    position:fixed;
+    top:300px;
+    display: none;
+}

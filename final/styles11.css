@@ -1,0 +1,27 @@
+#one {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    display: none;
+}
+
+#two {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: none;
+}
+
+#three {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: none;
+}
+
+#four {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: none;
+}
