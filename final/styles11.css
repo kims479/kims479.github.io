@@ -3,6 +3,11 @@
     position: absolute;
 }
 
+#back {
+    right: 5%;
+    top: 84%;
+}
+
 #change {
     background-color: #066CCF;
     border-color: #066CCF;

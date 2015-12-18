@@ -38,8 +38,8 @@ a:hover {
     width: 140px;
     height: 140px;
     border-radius: 70px;
-    left: 76%;
-    top: 68%;
+    left: 73.5%;
+    bottom: 45%;
     position: absolute;
     font-size: 40px;
     font-family: Impact;
@@ -53,8 +53,8 @@ a:hover {
     width: 140px;
     height: 140px;
     border-radius: 70px;
-    left: 76%;
-    top: 96%;
+    left: 73.5%;
+    bottom: 28.5%;
     position: absolute;
     font-size: 40px;
     font-family: Impact;
@@ -68,9 +68,9 @@ a:hover {
     width: 140px;
     height: 140px;
     border-radius: 70px;
-    left: 76%;
-    top: 124%;
-    position: absolute;
+    left: 73.5%;
+    bottom: 27%;
+    position: relative;
     font-size: 40px;
     font-family: Impact;
     text-align: center;
@@ -78,19 +78,19 @@ a:hover {
 }
 
 #fun {
-    position: absolute;
+    position: fixed;
     left: 90%;
-    top: 5%;
+    bottom: 87%;
 }
 
 #sea {
-    position: absolute;
+    position: fixed;
     left: 88.5%;
-    top: 24%;
+    bottom: 71%;
 }
 
 #park {
     position: absolute;
     left: 1%;
-    top: 8%;
+    top: 5%;
 }
