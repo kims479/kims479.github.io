@@ -1,27 +1,65 @@
+#question {
+    right: 5%;
+    position: absolute;
+}
+
+#change {
+    background-color: #066CCF;
+    border-color: #066CCF;
+    width: 250px;
+    height: 100px;
+    top: 50%;
+    right: 14%;
+    position:absolute;
+    color: white;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 20px;
+}
+
+a {
+    width: 300px;
+    height: 50px;
+    top: 110%;
+    right: 3%;
+    position:absolute;
+    color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 21px;
+}
+
 #one {
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 10%;
+    left: 2%;
     display: none;
 }
 
 #two {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 23%;
+    left: 0%;
     display: none;
 }
 
 #three {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 10%;
+    left: 8%;
     display: none;
 }
 
 #four {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 8%;
+    left: 2%;
     display: none;
 }

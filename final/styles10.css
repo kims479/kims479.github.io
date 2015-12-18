@@ -8,6 +8,14 @@ body, html {
     margin: 0;
 }
 
+p {
+    font-family: Bodoni 72 Book, Georgia;
+    font-size: 34px;
+    text-align: left;
+    color: black;
+    z-index: 1000;
+}
+
 a:hover {
     cursor: url('finger.png'), auto;
 }
@@ -31,7 +39,7 @@ a:hover {
     height: 140px;
     border-radius: 70px;
     left: 76%;
-    top: 72%;
+    top: 68%;
     position: absolute;
     font-size: 40px;
     font-family: Impact;
@@ -46,7 +54,7 @@ a:hover {
     height: 140px;
     border-radius: 70px;
     left: 76%;
-    top: 103%;
+    top: 96%;
     position: absolute;
     font-size: 40px;
     font-family: Impact;
@@ -61,7 +69,7 @@ a:hover {
     height: 140px;
     border-radius: 70px;
     left: 76%;
-    top: 135%;
+    top: 124%;
     position: absolute;
     font-size: 40px;
     font-family: Impact;

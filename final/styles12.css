@@ -1,66 +1,229 @@
-body,html {
-    background-color: black;
+body, html {
+    background-image: url("fish.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    margin: 0;
 
 }
 
-#circle {
-    background-color: red;
-    height: 400px;
-    width: 400px;
-    border-radius: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+
+
+#reef1 {
+    background-image: url("reef1.png");
+    position: fixed;
+    bottom: -2%;
+    left: 5%;
     z-index: 100;
 }
 
-#circle:hover .bubble {
+#reef1:hover .bubble {
     display: block;
 }
 
-#circle:hover .bubble1 {
+#reef1:hover .bubble1 {
+    display: block;
+}
+
+#reef1:hover .bubble2 {
+    display: block;
+}
+
+#reef1:hover .bubble3 {
+    display: block;
+}
+
+#reef2 {
+    background-image: url("reef2.png");
+    position: fixed;
+    bottom: -5%;
+    left: 68%;
+    z-index: 101;
+}
+
+#reef2:hover .bubble {
+    display: block;
+}
+
+#reef2:hover .bubble1 {
+    display: block;
+}
+
+#reef2:hover .bubble2 {
+    display: block;
+}
+
+#reef3 {
+    background-image: url("reef3.png");
+    position: fixed;
+    bottom: -12%;
+    left: 18%;
+    z-index: 101;
+}
+
+#reef3:hover .bubble {
+    display: block;
+}
+
+#reef3:hover .bubble1 {
+    display: block;
+}
+
+#reef3:hover .bubble2 {
+    display: block;
+}
+
+#reef3:hover .bubble3 {
+    display: block;
+}
+
+#reef4 {
+    background-image: url("reef4.png");
+    position: fixed;
+    bottom: -12%;
+    left: -5%;
+    z-index: 90;
+}
+
+#reef4:hover .bubble {
+    display: block;
+}
+
+#reef4:hover .bubble1 {
+    display: block;
+}
+
+#reef4:hover .bubble2 {
+    display: block;
+}
+
+#reef5 {
+    background-image: url("reef5.png");
+    position: fixed;
+    bottom: -6%;
+    left: 80%;
+    z-index: 80;
+}
+
+#reef5:hover .bubble {
+    display: block;
+}
+
+#reef5:hover .bubble1 {
+    display: block;
+}
+
+#reef5:hover .bubble2 {
+    display: block;
+}
+
+#reef6 {
+    background-image: url("reef6.png");
+    position: fixed;
+    bottom: -10%;
+    left: 46%;
+    z-index: 80;
+}
+
+#reef6:hover .bubble {
+    display: block;
+}
+
+#reef6:hover .bubble1 {
+    display: block;
+}
+
+#reef6:hover .bubble2 {
+    display: block;
+}
+
+#reef6:hover .bubble3 {
     display: block;
 }
 
 @keyframes example {
-    from {top: 400px;
-        opacity: 0;
+    from {top: 1100px;
+        opacity: 0.5;
     }
-    to {top: -100px;
-        opacity: 1;
+    to {top: -900px;
+        opacity: 0;
     }
 }
 
 /* The element to apply the animation to */
 .bubble {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius:100%;
     background-color: white;
     animation-name: example;
     animation-duration: 4s;
     position:fixed;
-    top:400px;
+    top:1100px;
     display: none;
 }
 
-
 @keyframes example1 {
-    from {top: 300px; left: 700px;
-        opacity: 0;
+    from {top: 900px; left: 2000px;
+        opacity: 0.5;
     }
     to {top: -100px; left: 700px;
-        opacity: 1;
+        opacity: 0;
     }
 }
+
 .bubble1 {
-    width: 50px;
-    height: 50px;
+    width: 110px;
+    height: 110px;
     border-radius:100%;
     background-color: white;
     animation-name: example1;
     animation-duration: 3s;
     position:fixed;
-    top:300px;
+    top:900px;
+    display: none;
+}
+
+@keyframes example2 {
+    from {top: 950px; left: 1200px;
+        opacity: 0.5;
+    }
+    to {top: -100px; left: 400px;
+        opacity: 0;
+    }
+}
+
+.bubble2 {
+    width: 125px;
+    height: 125px;
+    border-radius:100%;
+    background-color: white;
+    animation-name: example2;
+    animation-duration: 5s;
+    position:fixed;
+    top:950px;
+    display: none;
+}
+
+@keyframes example3 {
+    from {top: 1250px; left: 300px;
+        opacity: 0.5;
+    }
+    to {top: -200px; left: 900px;
+        opacity: 0;
+    }
+}
+
+.bubble3 {
+    width: 120px;
+    height: 120px;
+    border-radius:100%;
+    background-color: white;
+    animation-name: example3;
+    animation-duration: 6s;
+    position:fixed;
+    top:1250px;
     display: none;
 }
