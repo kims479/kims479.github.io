@@ -1,12 +1,88 @@
+body, html {
+    background-image: url("controlpane.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    margin: 0;
+}
+
+a:hover {
+    cursor: url('finger.png'), auto;
+}
+
+#engine:hover {
+    cursor: url('finger.png'), auto;
+}
+
+#speed:hover {
+    cursor: url('finger.png'), auto;
+}
+
+#stop:hover {
+    cursor: url('finger.png'), auto;
+}
+
 #engine {
-    background-color: red;
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    left: 35%;
-    top: 35%;
+    background-color: #009900;
+    color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    left: 76%;
+    top: 72%;
     position: absolute;
     font-size: 40px;
-    font-family: Avenir, Helvetica;
+    font-family: Impact;
     text-align: center;
+    line-height: 140px;
+}
+
+#speed {
+    background-color: #E5C500;
+    color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    left: 76%;
+    top: 103%;
+    position: absolute;
+    font-size: 40px;
+    font-family: Impact;
+    text-align: center;
+    line-height: 140px;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    left: 76%;
+    top: 135%;
+    position: absolute;
+    font-size: 40px;
+    font-family: Impact;
+    text-align: center;
+    line-height: 140px;
+}
+
+#fun {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+
+#sea {
+    position: absolute;
+    left: 88.5%;
+    top: 24%;
+}
+
+#park {
+    position: absolute;
+    left: 1%;
+    top: 8%;
 }
