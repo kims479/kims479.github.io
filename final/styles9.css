@@ -5,8 +5,8 @@ body,html {
     cursor: url('bird.png'), auto;
 }
 
-a {
-  cursor: url('bird.png'), auto;  
+a: hover {
+    cursor: url('seashell.png'), auto;
 }
 
 #circle {
