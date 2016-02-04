@@ -33,7 +33,8 @@ a:hover{
   position: relative;
   background:url('assets/img/paint.jpg') no-repeat center center ;
   background-size:cover;
-  width:100%;
+  background-attachment: fixed;
+  width:1200px;
   padding-top:20%;
   padding-bottom:20%;
 }
