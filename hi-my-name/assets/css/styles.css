@@ -26,7 +26,8 @@ body, html {
   font-weight: bold;
   font-style: italic;
   top: 150px;
-  left: 200px;
+  left: 200px
+  text-decoration: none;
 }
 
 a:hover{
