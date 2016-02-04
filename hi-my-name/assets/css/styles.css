@@ -7,15 +7,15 @@ body, html {
     -webkit-background-size: cover;
     margin: 0;
 }
-}
-.link, a {
+
+div.header, a {
   z-index: 100;
   color: #FFE303;
   font-size: 40px;
   font-family: “Lucida Console”, Monaco, monospace;
   font-weight: bold;
   font-style: italic;
-  top: 150px;
+  top: 250px;
   left: 35%;
   text-decoration: none;
 }
