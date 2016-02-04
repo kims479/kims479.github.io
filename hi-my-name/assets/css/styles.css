@@ -20,14 +20,11 @@ body, html {
 }
 #link, a {
   z-index: 100;
-  position: absolute;
   color: #FFE303;
   font-size: 40px;
   font-family: “Lucida Console”, Monaco, monospace;
   font-weight: bold;
   font-style: italic;
-  left: 150px;
-  top: 350px;
 }
 
 a:hover{
