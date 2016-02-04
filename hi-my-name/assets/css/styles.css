@@ -30,5 +30,10 @@ a:hover{
 }
 
 .image {
-   position: relative;
+  position: relative;
+  background:url('assets/img/bgimage1.png') no-repeat center center ;
+  background-size:cover;
+  width:100%;
+  padding-top:20%;
+  padding-bottom:20%;
 }
