@@ -1,3 +1,10 @@
+* { 
+	box-sizing: border-box; 
+}
+/*this allows padding to apply inside the div instead of to the width.. 
+apply to every code 
+// the asterick applies to the entire page*/
+
 body {
 	margin: 0;
 	padding: 0; 
@@ -11,6 +18,10 @@ div {
 
 h1, h2, h3, h4, h5, h6{
 	font-size: 15px;
+	margin: 0;
+}
+
+ul {
 	margin: 0;
 }
 
@@ -28,9 +39,22 @@ h1, h2, h3, h4, h5, h6{
 	display: inline-block;
 }
 
-.c6 { width: 930px; color: #000;}
+.c6 { width: 930px; }
 .c5 { width: 770px; }
 .c4 { width: 610px; }
 .c3 { width: 450px; }
-.c2 { width: 290px; }
+.c2 { width: 290px; background: #f00;}
 .c1 { width: 130px; }
+
+
+.no-gutters {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.parent {
+	font-size: 0;
+}
+
+.no-left-gutter {	margin-left: 0; }
+.no-right-gutter {	margin-right: 0; }
