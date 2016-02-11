@@ -5,8 +5,6 @@
 body {
 	margin: 0;
 	padding: 0; 
-	font-size: 15px;
-	font-family: arial, helvetica, sans-serif;
 }
 
 div {
@@ -15,12 +13,18 @@ div {
 
 .container {
 	width: 768px;
-	height: 768px;
 	font-size: 0;
 	margin: 0 auto 0 auto;
 }
 
 .c1 {
-	margin: 100px 100px 0 100px;
+	width: 768px;
+	height: 668px;
 	background: yellow;
+}
+
+.c2 {
+	width: 768px;
+	height: 100px;
+	background: red;
 }
