@@ -40,14 +40,14 @@ div {
 	width: 368px;
 	height: 368px;
 	background: #009E4F;
-	padding: 16px 0 16px 0;
+	padding: 20px 20px 20px 20px;
 }
 
 .c5 {
-	width: 336px; /*subtract by double the margin*/
-	height: 72px; /*multiply the margin by 4, subtract that from c4 height, then divide that by 4*/
+	width: 328px; /*subtract by double the margin*/
+	height: 67px; /*multiply the margin by 4, subtract that from c4 height, then divide that by 4*/
 	background: #ED2025;
-	margin: 16px 16px 16px 16px;
+	margin: 20px 0 20px 0;
 }
 
 .no-top-gutter { margin-top: 0; }
