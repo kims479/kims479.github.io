@@ -1,0 +1,55 @@
+* { 
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+div {
+	vertical-align: top;
+}
+
+.container {
+	width: 768px;
+	margin: 0 auto 0 auto;
+}
+
+.c1 {
+	width: 768px;
+	height: 668px;
+	background: #F8E71C;
+	padding: 100px 100px 0 100px;
+}
+
+.c2 {
+	width: 768px;
+	height: 100px;
+	background: #D0021B;
+}
+
+.c3 {
+	width: 568px;
+	height: 568px;
+	background: #202665;
+	padding: 100px 100px 100px 100px;
+}
+
+.c4 {
+	width: 368px;
+	height: 368px;
+	background: #009E4F;
+	padding: 20px 20px 20px 20px;
+}
+
+.c5 {
+	width: 328px; /*subtract by double the margin*/
+	height: 67px; /*multiply the margin by 4, subtract that from c4 height, then divide that by 4*/
+	background: #ED2025;
+	margin: 20px 0 20px 0;
+}
+
+.no-top-gutter { margin-top: 0; }
+.no-bottom-gutter { margin-bottom: 0; }
+
