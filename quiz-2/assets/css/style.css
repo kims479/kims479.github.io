@@ -13,43 +13,132 @@ div {
 
 .container {
 	width: 768px;
+	height: 600px;
+	background: #40443C;
 	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #CFCFCB;
+	border-radius: 50%;
+	margin: 250px 334px 250px 334px;
+	position: absolute;
 }
 
 .c1 {
-	width: 768px;
-	height: 668px;
-	background: #F8E71C;
-	padding: 100px 100px 0 100px;
+	width: 256px;
+	height: 400px;
+	background: #B0AB96;
+	padding: 50px 50px 50px 50px;
+	z-index: 1;
+	position: absolute;
 }
 
 .c2 {
-	width: 768px;
-	height: 100px;
-	background: #D0021B;
+	width: 146px;
+	height: 300px;
+	background: black;
+	padding: 10px 0 10px 0;
+	position: absolute;
 }
 
 .c3 {
-	width: 568px;
-	height: 568px;
-	background: #202665;
-	padding: 100px 100px 100px 100px;
+	width: 68px;
+	height: 280px;
+	background: #CFCFCB;
 }
 
 .c4 {
-	width: 368px;
-	height: 368px;
-	background: #009E4F;
-	padding: 20px 20px 20px 20px;
+	width: 68px;
+	height: 280px;
+	background: #CFCFCB;
 }
 
 .c5 {
-	width: 328px; /*subtract by double the margin*/
-	height: 67px; /*multiply the margin by 4, subtract that from c4 height, then divide that by 4*/
-	background: #ED2025;
-	margin: 20px 0 20px 0;
+	width: 512px;
+	height: 200px;
+	background: #495157;
+	padding: 50px 50px 50px 50px;
+	position: relative;
 }
+
+.c6 {
+	width: 412px;
+	height: 100px;
+	background: black;
+	padding: 10px 0 0 0;
+}
+
+.c7 {
+	width: 392px;
+	height: 8px;
+	background: #CFCFCB;
+	margin: 10px 10px 10px 10px;
+}
+
+.c8 {
+	width: 512px;	height: 200px;
+	background: #B6B7B0;
+	margin: 200px 0 0 0;
+	position: relative;
+	padding: 50px 50px 50px 50px;
+}
+
+.c9 {
+	width: 412px;
+	height: 100px;
+	background: black;
+	padding: 10px 0 0 0;
+	position: relative;
+}
+
+.c10 {
+	width: 57px;
+	height: 80px;
+	background: #495157;
+	margin: 0px 10px 10px 10px;
+}
+
+.c11 {
+	width: 256px;
+	height: 400px;
+	background: #202C28;
+	padding: 50px 50px 50px 50px;
+	margin: -400px 0 0 512px;
+}
+
+.c12 {
+	width: 146px;
+	height: 300px;
+	background: #CFCFCB;
+	padding: 10px 0 10px 0;
+}
+
+.c13 {
+	width: 68px;
+	height: 280px;
+	background: #202C28;
+}
+
+.c14 {
+	width: 68px;
+	height: 280px;
+	background: #202C28;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	}
 
 .no-top-gutter { margin-top: 0; }
 .no-bottom-gutter { margin-bottom: 0; }
+.no-left-gutter { margin-left: 0; }
+.no-right-gutter { margin-right: 0; }
 
