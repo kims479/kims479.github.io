@@ -33,10 +33,11 @@ nav ul, nav ol, nav li{
 .top {
 	font-family: Bebas;
 	font-size: 40px;
-	background: #BAB3B3;
+	background: #9D402E;
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	padding-bottom: 10px;
+	color: #B9A2A2;
 }
 
 #container {
@@ -45,8 +46,7 @@ nav ul, nav ol, nav li{
 	overflow-x: auto;
 	overflow-y: hidden;
     white-space: nowrap;
-    margin: 10px 0 0 0;
-    background: #B9A2A2;
+    margin: 0;    
     position: relative;
 }
 
@@ -508,16 +508,16 @@ form {
 }
 
 .nav {
-	background: #BAB3B3;
+	background: #9D402E;
 	width: 100%;
-	height: 150px;
+	height: 145px;
 	padding: 15px 0 15px 0;
 
 }
 
 .square { 
-	background: white;
-	border-color: black;
+	background: transparent;
+	border-color: #B9A2A2;
 	border-style: solid;
 	border-width: 3px;
 	width: 90px;
@@ -527,7 +527,7 @@ form {
 	line-height: 80px;
 	font-family: Bebas;
 	font-size: 13px;
-	color: black;
+	color: #B9A2A2;
 	z-index: 4000;
 }
 
@@ -535,12 +535,15 @@ form {
 	border-style: dotted;
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXxvZSoAAAAAElFTkSuQmCC)repeat;
 	font-size: 15px;
+	border-color: #815458;
+	color: white;
 }
 
 .a:active:visited {
 	border-style: dotted;
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXxvZSoAAAAAElFTkSuQmCC)repeat;
 	font-size: 15px;
+	color: white;
 }
 
 
