@@ -1,0 +1,81 @@
+.word-wrapper {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.letter-wrapper {
+	display: inline-block;
+	margin: 0 15px 60px 15px;
+}
+
+.letter {
+	width: 150px;
+	height: 200px;
+	background-color: transparent;
+	position: relative;
+}
+
+.bar {
+	position: absolute;
+}
+
+.vertical {
+	width: 30px;
+	height: 200px;
+}
+
+.horizontal {
+	width: 150px;
+	height: 30px;
+}
+
+.black { 
+	background-color: black;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.a-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.a-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.a-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.a-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
+
+/*
+
+Position
+
+absolute ~picks it out of the flow of the document and places it from the top left page. remains firm on the page
+relative ~stays in the flow of the document
+fixed ~similar to absolute but places it on the WINDOW, not page
+
+*/
+
