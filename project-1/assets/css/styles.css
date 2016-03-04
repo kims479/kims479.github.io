@@ -45,7 +45,7 @@ nav ul, nav ol, nav li{
 }
 
 .container {
-	width: 270%;
+	width: 100%;
 	height: 420px;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -531,7 +531,7 @@ form {
 	z-index: 4000;
 }
 
-.square:hover {
+.square:hover:active {
 	border-style: dotted;
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXxvZSoAAAAAElFTkSuQmCC)repeat;
 	font-size: 15px;
