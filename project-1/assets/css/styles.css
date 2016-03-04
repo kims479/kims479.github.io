@@ -531,7 +531,7 @@ form {
 	z-index: 4000;
 }
 
-.square:hover:active {
+.square:hover {
 	border-style: dotted;
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXxvZSoAAAAAElFTkSuQmCC)repeat;
 	font-size: 15px;
