@@ -1,0 +1,29 @@
+variables
+	- Strings: series of characters strung together to make a phrase
+		- "Hello World, it's 60 degrees outside."
+		- 'Hello World, it's 60 degrees outside.' (single quotes can be used if the string doesn't have any other single quotes...)
+	- Number
+		- you can do math in Number, not strong
+		- 1000 900 87
+		- 1000 + 1000 => 2000
+		- "hello, world" + "goodbye, world" => "hello, worldgoodbye, world"
+		- "hello, world" + " goodbye, world" => "hello, world goodbye, world"
+	- Boolean
+		- true / false
+		- 1 / 0 [true = 1 / false = 0]
+		- "the sky is blue" => true / 1
+		- 0 = 0 (a statement)
+		- 0 == 0 (a question) => true
+		- 100 == 0 => false
+		- "100" == 100 => false
+	- Array
+		- collection of different strings, numbers, and other values
+		- var dresser = ["socks", "shirts", "pants", "out of season"];
+			- 0. socks
+			  1. shirts
+			  2. pants
+			  3. out of season
+			- dresser[1] => "shirts"
+		- var animals = ["ducks", "cats", "dogs", "sheep"];
+
+
