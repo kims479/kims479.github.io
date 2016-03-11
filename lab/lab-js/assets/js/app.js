@@ -8,6 +8,10 @@ var clothing = ["shirts", "socks", "pants"];
 var winner = false;
 var checking_account = 1000;
 
+var marni_earrings = 450;
+var marni_shirt = 1000;
+var stella_dress = 3000;
+
 console.log(winner);
 
 // functions
