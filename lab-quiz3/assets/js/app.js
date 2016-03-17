@@ -47,17 +47,20 @@ function convert_currency (amount, converter) {
 return usd * getRates (conversion_rate) 
 }
 
-function wallet (amount, converter) {
-	var amount = 1500;
-	//question 10
-$('.amount').click(function() {
-  var wallet = $(this).data('amount');
-  var converted_wallet = $(this).data('amount');
-  convert_currency(amount, converter);
-});
+function wallet_amount (amount, converter) {
 
-	var amount = 1500;
-	convert_currency(amount, converter);
+	//question 10 ~ figure out how to get the number value in the input text
+	var amount = document.getElementById('wallet').value;
+	var select = document.getElementById("select");
+    var result = document.getElementById("result");
+
+	if (select.value === "My Wallet") {
+				result.value = (amount * conversion_rate[1]);
+                convert_currency(amount, converter);
+            }
+
+            return amount;
+
 }
 
 
