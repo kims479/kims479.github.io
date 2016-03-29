@@ -9,7 +9,7 @@
 }
 
 .letter {
-	width: 150px;
+	width: 200px;
 	height: 200px;
 	background-color: transparent;
 	position: relative;
@@ -29,20 +29,12 @@
 	height: 30px;
 }
 
-.black { 
-	background-color: black;
+.green { 
+	background-color: #417505;
 }
 
-.yellow {
-	background-color: yellow;
-}
-
-.red {
-	background-color: red;
-}
-
-.blue {
-	background-color: blue;
+.white {
+	background-color: white;
 }
 
 
