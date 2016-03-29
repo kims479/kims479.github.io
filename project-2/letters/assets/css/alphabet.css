@@ -1,22 +1,132 @@
-.a-left {
+/*letter H*/
+
+.h-left {
 	top: 0px;
 	left: 0px;
 	z-index: 1;
 }
 
-.a-right {
+.h-right {
 	top: 0px;
 	right: 0px;
 	z-index: 3;
 }
 
-.a-top {
+.h-top {
 	top: 0px;
 	left: 0px;
 	z-index: 2;
 }
 
-.a-mid {
+.h-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
+
+/*letter O*/
+
+
+.o-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.o-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.o-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.o-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
+
+/*letter D*/
+
+
+.d-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.d-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.d-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.d-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
+
+/*letter N*/
+
+
+.n-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.n-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.n-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.n-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
+
+/*letter P*/
+
+
+.p-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.p-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.p-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.p-mid {
 	top: 85px;
 	left: 0px;
 	z-index: 4;
