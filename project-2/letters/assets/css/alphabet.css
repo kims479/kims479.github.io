@@ -1,0 +1,23 @@
+.a-left {
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.a-right {
+	top: 0px;
+	right: 0px;
+	z-index: 3;
+}
+
+.a-top {
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.a-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 4;
+}
