@@ -1,0 +1,12 @@
+* { 
+	box-sizing: border-box; 
+}
+/*this allows padding to apply inside the div instead of to the width.. 
+apply to every code 
+// the asterick applies to the entire page*/
+
+body {
+	margin: 0;
+	padding: 0; 
+	font-size: 25px;
+}
