@@ -1,0 +1,72 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	height: 200%;
+    width: 200%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+
+.gradient {
+	height: 100%;
+	width: 100%;
+	background: cover;
+    background: -webkit-radial-gradient(circle at top left, white, white, white, white, white, white, white, #FAFAFA, #D3D3D3, #bdbdbd, #939393, #696969, #3f3f3f, #151515, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    background: -moz-radial-gradient(circle at top left, white, white, white, white, white, white, white, #FAFAFA, #D3D3D3, #bdbdbd, #939393, #696969, #3f3f3f, #151515, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    background: -o-radial-gradient(circle at top left, white, white, white, white, white, white, white, #FAFAFA, #D3D3D3, #bdbdbd, #939393, #696969, #3f3f3f, #151515, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    background: radial-gradient(circle at top left, white, white, white, white, white, white, white, #FAFAFA, #D3D3D3, #bdbdbd, #939393, #696969, #3f3f3f, #151515, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    -webkit-transition: background 1s ease-out;
+    -moz-transition: background 2s ease-out;
+    -o-transition: background 2s ease-out;
+    transition: background 1s ease-out;
+    -moz-background-size: 200% 100%;
+    -o-background-size: 200% 100%;
+    -webkit-background-size: 200% 100%;
+    background-size: 200% 100%;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+}
+
+.button-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: yellow;
+    height: 100px;
+}
+
+.gradient:hover {
+    background-position: 100%;
+}
+
+.word1 {
+	top: 50px;
+    position: absolute;
+}
+
+.word2 {
+    top: 620px;
+    left: -640px;
+    position: absolute;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25%, transparent 100%,
+                                              rgba(0, 0, 0, 1) 75%, transparent 100%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 0%)
+}

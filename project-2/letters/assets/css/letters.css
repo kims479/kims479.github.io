@@ -1,21 +1,27 @@
 .word-wrapper {
 	display: inline-block;
 	margin-right: 60px;
+	position: relative;
+
 }
 
 .letter-wrapper {
 	display: inline-block;
-	margin: 10px 50px 10px 50px;
-	padding: 20px 20px 20px 20px;
+	margin: 10px 70px 10px 70px;
 	align: center;
+	position: relative;
 }
 
 .letter {
-	width: 150px;
-	height: 200px;
 	background-color: transparent;
-	position: relative;
 	align: center;
+	display: inline-block;
+	position: absolute;
+}
+
+.div {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .bar {
@@ -24,13 +30,13 @@
 }
 
 .vertical {
-	width: 35px;
-	height: 200px;
+	width: 18px;
+	height: 150px;
 }
 
 .horizontal {
-	width: 150px;
-	height: 35px;
+	width: 100px;
+	height: 18px;
 }
 
 .black { 
