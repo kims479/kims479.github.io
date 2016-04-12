@@ -1,6 +1,5 @@
 .word-wrapper {
-
-
+	position: absolute;
 }
 
 .letter-wrapper {
