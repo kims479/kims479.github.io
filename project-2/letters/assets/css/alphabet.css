@@ -612,6 +612,25 @@
 }
 
 /*letter T*/
+.t-left {
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 150px;
+	z-index: 1;
+}
+
+.t-top {
+	top: 0;
+	left: 0;
+	z-index: 2;	
+}
+
+.t-bottom {
+	top: 0;
+	left: 42px;
+	z-index: 3;
+}
 
 /*letter U*/
 .u {	
@@ -623,6 +642,28 @@
 }
 
 /*letter V*/
+.v-bottom {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid black;
+	z-index: 1;
+}
+
+.v-left {
+	width: 18px;
+	height: 150px;
+	top: 0;
+	left: 0;
+	transform: rotate(330deg);
+	transform-origin: 0% 0%;
+	z-index: 2;
+}
+
+.v-right {
+
+}
 
 /*letter W*/
 
