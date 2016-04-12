@@ -449,7 +449,7 @@
 	border-radius: 50px / 75px;
 	top: 0;
 	left: 0;
-	z-indx: 1;
+	z-index: 1;
 }
 
 .o-bottom {
@@ -642,27 +642,41 @@
 }
 
 /*letter V*/
+.v {	
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 115px;
+	height: 150px;
+}
+
 .v-bottom {
 	width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-top: 100px solid black;
+	border-top: 150px solid black;
 	z-index: 1;
 }
 
 .v-left {
 	width: 18px;
-	height: 150px;
-	top: 0;
+	height: 160px;
+	top: 0px;
 	left: 0;
-	transform: rotate(330deg);
+	transform: rotate(342deg);
 	transform-origin: 0% 0%;
 	z-index: 2;
 }
 
 .v-right {
-
+	width: 18px;
+	height: 160px;
+	top: -5px;
+	left: 98px;
+	transform: rotate(18deg);
+	transform-origin: 0% 0%;
+	z-index: 2;
 }
 
 /*letter W*/
@@ -676,5 +690,3 @@
 /*letter dash*/
 
 /*letter apostrophe*/
-
-/*letter one*/
