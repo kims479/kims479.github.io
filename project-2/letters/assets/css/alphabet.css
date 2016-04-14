@@ -356,7 +356,41 @@
 }
 
 .j-top {
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
 
+.j-bottom {
+	width: 68px;
+	height: 150px;
+	background: white;
+	-moz-border-radius: 68px / 50px;
+	-webkit-border-radius: 68px / 50px;
+	border-radius: 68px / 50px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.j-left {
+	width: 50px;
+	height: 132px;
+	background: black;
+	-moz-border-radius: 50px / 50px;
+	-webkit-border-radius: 50px / 50px;
+	border-radius: 50px / 50px;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.j-right {
+	width: 100px;
+	height: 150px;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 /*letter K*/
@@ -705,6 +739,46 @@
 	overflow: hidden;
 	width: 100px;
 	height: 150px;
+}
+
+.u-top {
+	width: 100px;
+	height: 90px;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.u-left {
+	width: 64px;
+	height: 90px;
+	top: 0;
+	left: 18px;
+	z-index: 4;
+}
+
+.u-bottom {
+	width: 100px;
+	height: 150px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.u-right {
+	width: 64px;
+	height: 132px;
+	background: black;
+	-moz-border-radius: 64px / 44px;
+	-webkit-border-radius: 64px / 44px;
+	border-radius: 64px / 44px;
+	top: 0;
+	left: 18px;
+	z-index: 2;
 }
 
 /*letter V*/
