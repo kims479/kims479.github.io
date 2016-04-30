@@ -4,7 +4,7 @@
 
 @font-face { 
 	font-family: OCR A Std; 
-	src: url('assets/img/OCRAStd.otf'); 
+	src: url('OCRAStd.otf'); 
 } 
 
 body, html {
