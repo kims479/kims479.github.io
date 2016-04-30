@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face { 
+	font-family: OCR A Std; 
+	src: url('assets/img/OCRAStd.otf'); 
+} 
+
+body, html {
+  margin: 0;
+  padding: 0px;
+  font-size: 0;
+  line-height: 0;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: OCR A Std;
+  color: white;
+  font-size: 40px;
+}
+
+.box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+}
+
+.text {
+	position: fixed;
+	top: 30px;
+	left: 30px;
+}
+
+.colors {
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 30px;
+}
+
+.colors div {
+  width: 30px;
+  height: 50px;
+}
+
+.pink { background-color: #FF33C7; }
+.red { background-color: red; }
+.orange { background-color: #FFA533; }
+.yellow { background-color: #FFF933; }
+.green { background-color: lime; }
+.blue { background-color: blue; }
+.purple { background-color: #BD00FF; }
+.brown { background-color: #734C24; }
+.white { background-color: white; }
+.black { background-color: black; }
+
+.done {
+  position: fixed;
+  bottom:0px;
+  right:0;
+  font-size: 40px;
+  line-height: 20px;
+  padding: 40px;
+  background-color: #00DCFF;
+}
