@@ -9,24 +9,43 @@
   </head>
 
 <body>
-  <div class="colors">
-    <div class="pink"></div>
-    <div class="red"></div>
-    <div class="orange"></div>
-    <div class="yellow"></div>
-    <div class="green"></div>
-    <div class="blue"></div>
-    <div class="purple"></div>
-    <div class="brown"></div>
-    <div class="white"></div>
-    <div class="black"></div>
-    <div class="eraser"></div>
+  <div class="game" id="colors">
+
+    <div class="colors" >
+      <div class="pink"></div>
+      <div class="red"></div>
+      <div class="orange"></div>
+      <div class="yellow"></div>
+      <div class="green"></div>
+      <div class="blue"></div>
+      <div class="purple"></div>
+      <div class="brown"></div>
+      <div class="white"></div>
+      <div class="black"></div>
+      <div class="eraser"></div>
+    </div>
+    <a class="button button3" href="#home">home</a>
+    <div class="done">DONE</div>
   </div>
 
-  <div class="text">hello</div>
 
-  <div class="done">DONE</div>
+  <div class="home" id="home">    
+    <a class="button button1" href="#popup1">about</a>
 
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>about the game</h2>
+        <a class="close" href="#">x</a>
+        <div class="content">
+          fga
+        </div>
+      </div>
+    </div>
+
+    <a class="button button2" href="#colors">begin</a>
+  </div>
+
+<script src="assets/js/popup.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

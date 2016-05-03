@@ -60,4 +60,18 @@ $(".done").click(function() {
   $(".purple").css("background-color","transparent");
   $(".brown").css("background-color","transparent");
   $(".black").css("background-color","transparent");
+  $(".white").css("background-color","transparent");
+});
+
+$(".button2").click(function() {
+  $(".home").css("visibility","hidden");
+  $(".game").css("visibility","visible");
+});
+
+$(".button3").click(function() {
+  $(".game").css("visibility","hidden");
+  $(".home").css("visibility","visible");
+  $(".box").css("border","1px solid white");
+  $("body").css("background-color","black");
+   $(".box").css("background-color","transparent");
 });
