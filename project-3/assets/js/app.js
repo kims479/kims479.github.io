@@ -48,30 +48,31 @@ $(".box").click(function() {
   $(this).css("background-color",currentColor);
 });
 
+if (window.location.hash == '#colors') {
+  clear_board();
+}
+
+function clear_board() {
+  $(".game").css("visibility","hidden");
+  $(".home").css("visibility","visible");
+  $(".box").css("border","1px solid white");
+  $("body").css("background-color","black");
+  $(".box").css("background-color","transparent"); 
+}
+
 $(".done").click(function() {
   $(".box").css("border","1px solid transparent");
   $("body").css("background-color","white");
-  $(".pink").css("background-color","transparent");
-  $(".red").css("background-color","transparent");
-  $(".orange").css("background-color","transparent");
-  $(".yellow").css("background-color","transparent");
-  $(".blue").css("background-color","transparent");
-  $(".green").css("background-color","transparent");
-  $(".purple").css("background-color","transparent");
-  $(".brown").css("background-color","transparent");
-  $(".black").css("background-color","transparent");
-  $(".white").css("background-color","transparent");
+  $(".color-picker").css('background-color', 'transparent');
 });
 
 $(".button2").click(function() {
   $(".home").css("visibility","hidden");
   $(".game").css("visibility","visible");
+  $(".color-picker").attr('style', '');
+  // $(".colors").css
 });
 
 $(".button3").click(function() {
-  $(".game").css("visibility","hidden");
-  $(".home").css("visibility","visible");
-  $(".box").css("border","1px solid white");
-  $("body").css("background-color","black");
-   $(".box").css("background-color","transparent");
+  clear_board();
 });
