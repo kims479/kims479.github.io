@@ -58,21 +58,31 @@ function clear_board() {
   $(".box").css("border","1px solid white");
   $("body").css("background-color","black");
   $(".box").css("background-color","transparent"); 
+  $(".done").css("visibility","hidden");
+  $(".refresh").css("visibility","hidden");
 }
 
 $(".done").click(function() {
+  $(this).css("visibility","hidden");
+  $(".refresh").css("visibility","visible");
   $(".box").css("border","1px solid transparent");
   $("body").css("background-color","white");
   $(".color-picker").css('background-color', 'transparent');
+  $(".color-picker").css('border', '1px solid transparent');
+  $(".clear").css("visibility","hidden");
 });
 
-$(".button2").click(function() {
+//begin
+$(".button2").click(function()  { 
   $(".home").css("visibility","hidden");
   $(".game").css("visibility","visible");
   $(".color-picker").attr('style', '');
   // $(".colors").css
+  $(".done").css("visibility","visible");
+  $(".refresh").css("visibility","hidden");
 });
 
+//home
 $(".button3").click(function() {
   clear_board();
 });

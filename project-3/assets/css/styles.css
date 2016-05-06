@@ -25,6 +25,7 @@ body, html {
   width: 30px;
   height: 30px;
   border: 1px solid white;
+  position: relative;
 }
 
 .home {
@@ -53,6 +54,7 @@ body, html {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  z-index: 40;
 }
 
 .overlay:target {
@@ -70,6 +72,7 @@ body, html {
   position: absolute;
   left: 0;
   transition: all 5s ease-in-out;
+  z-index: 41;
 }
 
 .popup, .close {
@@ -81,6 +84,7 @@ body, html {
   font-weight: bold;
   text-decoration: none;
   color: #00DCFF;
+  z-index: 41;
 }
 
 .popup h2 {
@@ -88,6 +92,7 @@ body, html {
   color: #333;
   font-size: 20px;
   font-family: OCR A Std;
+  z-index: 42;
 }
 
 .popup, .close:hover {
@@ -100,36 +105,72 @@ body, html {
   font-family: OCR A Std;
   color: black;
   overflow: auto;
+  z-index: 42;
 }
 
 .button {
-  position: fixed;
-  border: none;
-  background-color: white;
+  position: absolute;
+  background-color: rgba(0,220,225,0.5);
+  color: white;
+  border: 3px solid #00DCFF;
   font-family: OCR A Std;
-  color: black;
-  font-size: 20px;
-  width: 91px;
-  height: 32px;
-  line-height: 32px;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
   display: inline-block;
+  z-index: 5;
+}
+
+.button:hover {
+  border: 3px solid white;
+  color: #00DCFF;
 }
 
 .button1 {
-  top: 29px;
+  top: 30px;
   left: 0px;
+  font-size: 20px;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
 }
 
 .button2 {
-  left: 75%;
-  bottom: 18%;
+  left: 930px;
+  top: 480px;
+  font-size: 60px;
+  width: 240px;
+  height: 90px;
+  line-height: 90px;
 }
 
 .button3 {
-  right: 0;
-  top: 0;
+  top: 30px;
+  left: 0px;
+  font-size: 20px;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.refresh {
+  bottom: 25px;
+  left: 510px;
+  font-size: 40px;
+  width: 240px;
+  height: 60px;
+  line-height: 60px;
+  z-index: 50;
+  visibility: hidden;
+}
+
+.done {
+  bottom: 25px;
+  left: 510px;
+  width: 182px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
 }
 
 .text {
@@ -139,15 +180,21 @@ body, html {
 }
 
 .colors {
-  position: fixed;
-  top: 60px;
+  position: absolute;
+  top: 0px;
   right: 0;
-  width: 30px;
+  width: 50px;
+  z-index: 10;
 }
 
 .colors div {
-  width: 30px;
-  height: 50px;
+  width: 50px;
+  height: 51px;
+  cursor: pointer;
+}
+
+.colors div:hover {
+  border: 2px dashed #00DCFF;
 }
 
 .pink { background-color: #FF33C7; }
@@ -160,13 +207,249 @@ body, html {
 .brown { background-color: #734C24; }
 .white { background-color: white; }
 .black { background-color: black; }
+.clear { background-image: url("trash.png"); background-repeat: no-repeat; background-position: center; border: 1px solid #00CDFF;}
 
-.done {
-  position: fixed;
-  bottom:0px;
-  right:0;
-  font-size: 40px;
-  line-height: 20px;
-  padding: 40px;
-  background-color: #00DCFF;
+/*title*/
+.square {
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 7;
+}
+
+.title1 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 30px;
+}
+
+.title2 { 
+  height: 30px;
+  width: 30px;
+  top: 210px; 
+  left: 60px;
+}
+
+.title3 { 
+  height: 90px;
+  width: 30px;
+  top: 210px; 
+  left: 90px;
+}
+
+.title4 { 
+  height: 30px;
+  width: 30px;
+  top: 270px; 
+  left: 60px;
+}
+
+.title5 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 150px;
+}
+
+.title6 { 
+  height: 30px;
+  width: 60px;
+  top: 330px; 
+  left: 180px;
+}
+
+.title7 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 270px;
+}
+
+.title8 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 330px;
+}
+
+.title9 { 
+  height: 30px;
+  width: 30px;
+  top: 210px; 
+  left: 300px;
+}
+
+.title10 { 
+  height: 30px;
+  width: 30px;
+  top: 270px; 
+  left: 300px;
+}
+
+.title11 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 390px;
+}
+
+.title12 { 
+  height: 30px;
+  width: 60px;
+  top: 210px; 
+  left: 420px;
+}
+
+.title13 { 
+  height: 30px;
+  width: 60px;
+  top: 330px; 
+  left: 420px;
+}
+
+.title14 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 510px;
+}
+
+.title15 { 
+  height: 30px;
+  width: 60px;
+  top: 210px; 
+  left: 540px;
+}
+
+.title16 { 
+  height: 30px;
+  width: 60px;
+  top: 270px; 
+  left: 540px;
+}
+
+.title17 { 
+  height: 30px;
+  width: 60px;
+  top: 330px; 
+  left: 540px;
+}
+
+.title18 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 630px;
+}
+
+.title19 { 
+  height: 30px;
+  width: 30px;
+  top: 240px; 
+  left: 660px;
+}
+
+.title20 { 
+  height: 30px;
+  width: 30px;
+  top: 270px; 
+  left: 690px;
+}
+
+.title21 { 
+  height: 30px;
+  width: 30px;
+  top: 300px; 
+  left: 720px;
+}
+
+.title22 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 750px;
+}
+
+.title23 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 810px;
+}
+
+.title24 {
+  height: 30px;
+  width: 30px;
+  top: 210px; 
+  left: 840px;
+}
+
+.title25 {
+  height: 30px;
+  width: 30px;
+  top: 330px; 
+  left: 840px;
+}
+
+.title26 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 870px;
+}
+
+.title27 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 930px;
+}
+
+.title28 { 
+  height: 30px;
+  width: 30px;
+  top: 240px; 
+  left: 960px;
+}
+
+.title29 { 
+  height: 30px;
+  width: 30px;
+  top: 270px; 
+  left: 990px;
+}
+
+.title30 { 
+  height: 30px;
+  width: 30px;
+  top: 240px; 
+  left: 1020px;
+}
+
+.title31 { 
+  height: 150px;
+  width: 30px;
+  top: 210px; 
+  left: 1050px;
+}
+
+.title32 { 
+  height: 90px;
+  width: 30px;
+  top: 210px; 
+  left: 1110px;
+}
+
+.title33 { 
+  height: 90px;
+  width: 30px;
+  top: 210px; 
+  left: 1170px;
+}
+
+.title34 { 
+  height: 90px;
+  width: 30px;
+  top: 270px; 
+  left: 1140px;
 }
