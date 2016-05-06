@@ -153,11 +153,11 @@ body, html {
   line-height: 30px;
 }
 
-.refresh {
+.next {
   bottom: 25px;
-  left: 510px;
+  left: 42%;
   font-size: 40px;
-  width: 240px;
+  width: 182px;
   height: 60px;
   line-height: 60px;
   z-index: 50;
@@ -166,7 +166,7 @@ body, html {
 
 .done {
   bottom: 25px;
-  left: 510px;
+  left: 42%;
   width: 182px;
   height: 60px;
   font-size: 40px;
@@ -194,7 +194,7 @@ body, html {
 }
 
 .colors div:hover {
-  border: 2px dashed #00DCFF;
+  border: 5px dashed #00DCFF;
 }
 
 .pink { background-color: #FF33C7; }
