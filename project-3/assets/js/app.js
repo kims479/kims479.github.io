@@ -60,7 +60,7 @@ function clear_board() {
   $(".game").css("visibility","hidden");
   $(".home").css("visibility","visible");
   $(".box").css("border","1px solid white");
-  $("body").css("background-color","black");
+  $("body").css("background-color","#474747");
   $(".box").css("background-color","transparent"); 
   $(".done").css("visibility","hidden");
   $(".next").css("visibility","hidden");
@@ -70,7 +70,7 @@ $(".done").click(function() {
   $(this).css("visibility","hidden");
   $(".next").css("visibility","visible");
   $(".box").css("border","1px solid transparent");
-  $("body").css("background-color","white");
+  $("body").css("background-color","#D5D5D5");
   $(".color-picker").css('background-color', 'transparent');
   $(".color-picker").css('border', '1px solid transparent');
   $(".clear").css("visibility","hidden");
@@ -98,6 +98,6 @@ $(".button3").click(function() {
 //cleear button
 $(".clear").click(function() {
   $(".box").css("border","1px solid white");
-  $("body").css("background-color","black");
+  $("body").css("background-color","#474747");
   $(".box").css("background-color","transparent"); 
 });
