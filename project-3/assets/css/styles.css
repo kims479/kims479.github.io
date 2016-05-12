@@ -96,7 +96,7 @@ body, html {
 }
 
 .popup, .close:hover {
-  color: #00DCFF;
+  color: #black;
 }
 
 .content {
@@ -452,4 +452,55 @@ body, html {
   width: 30px;
   top: 270px; 
   left: 1140px;
+}
+
+
+
+.start-message {
+  padding: 20px;
+  background: rgba(255,225,225,0.7);
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 550px;
+  height: 300px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  z-index: 41;
+  display: none;
+  line-height: 1.2em;
+}
+
+.close-start-message {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  z-index: 41;
+  border: 2px solid black;
+  background: rgba(0, 0, 0, 0.5);
+  cursor:pointer;
+}
+
+.close-start-message:hover {
+  opacity: 1;
+  color: white;
+  background: rgba(0, 220,255, 0.5);
+  border: 3px solid #00cdff;
+}
+
+.start-message.show { display: block; }
+.start-message div { display: inline-block; }
+
+.text1, .text2 {
+  color: #00CDFF;
 }

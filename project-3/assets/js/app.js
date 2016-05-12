@@ -6,6 +6,12 @@ var isActive = false;
 
 var currentColor = "white";
 
+var things = ['Rock', 'Paper', 'Scissor'];
+var thing = things[Math.floor(Math.random()*things.length)];
+
+var places = ['Rock', 'Paper', 'Scissor'];
+var place = places[Math.floor(Math.random()*places.length)];
+
 $(".pink").click(function() {
   currentColor = "#FF33C7";
 });
@@ -64,6 +70,8 @@ function clear_board() {
   $(".box").css("background-color","transparent"); 
   $(".done").css("visibility","hidden");
   $(".next").css("visibility","hidden");
+  $(".start-message").css("visibility","hidden");
+  $(".close-start-message").css("visibility","hidden");
 }
 
 $(".done").click(function() {
@@ -74,12 +82,35 @@ $(".done").click(function() {
   $(".color-picker").css('background-color', 'transparent');
   $(".color-picker").css('border', '1px solid transparent');
   $(".clear").css("visibility","hidden");
+  $(".start-message").css("visibility","hidden");
+  $(".close-start-message").css("visibility","hidden");
   isActive = false;
   //$(".box").off("click","");
 });
 
+
+//next
+$(".next").click(function()  { 
+  $('.start-message').toggleClass('show');
+  $(".start-message").css("visibility","visible");
+  $(".close-start-message").css("visibility","visible");
+  $(".home").css("visibility","hidden");
+  $(".game").css("visibility","visible");
+  $(".color-picker").attr('style', '');
+  // $(".colors").css
+  $(".done").css("visibility","visible");
+  $(".next").css("visibility","hidden");
+  $(".box").css("border","1px solid white");
+  $("body").css("background-color","#474747");
+  $(".box").css("background-color","transparent"); 
+  isActive = true;
+});
+
 //begin
 $(".button2").click(function()  { 
+  $(".start-message").css("visibility","hidden");
+  $(".close-start-message").css("visibility","hidden");
+  $('.start-message').toggleClass('show');
   $(".home").css("visibility","hidden");
   $(".game").css("visibility","visible");
   $(".color-picker").attr('style', '');
@@ -87,12 +118,17 @@ $(".button2").click(function()  {
   $(".done").css("visibility","visible");
   $(".next").css("visibility","hidden");
   $(".box").on("click","");
+  $(".start-message").css("visibility","visible");
+  $(".close-start-message").css("visibility","visible");
+  $('.text1').append(things[Math.floor(Math.random()*things.length)]);
+  $('.text2').append(places[Math.floor(Math.random()*places.length)]);
   isActive = true;
 });
 
 //home
 $(".button3").click(function() {
   clear_board();
+   $('.start-message').toggleClass('show');
 });
 
 //cleear button
@@ -100,4 +136,8 @@ $(".clear").click(function() {
   $(".box").css("border","1px solid white");
   $("body").css("background-color","#474747");
   $(".box").css("background-color","transparent"); 
+});
+
+$('.close-start-message').click(function() {
+  $('.start-message').toggleClass('show');
 });
