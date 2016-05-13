@@ -72,6 +72,10 @@ function clear_board() {
   $(".next").css("visibility","hidden");
   $(".start-message").css("visibility","hidden");
   $(".close-start-message").css("visibility","hidden");
+  $('.text1').empty(things[Math.floor(Math.random()*things.length)]);
+  $('.text2').empty(places[Math.floor(Math.random()*places.length)]);
+  $('.text3').empty(places[Math.floor(Math.random()*places.length)]);
+  $('.text4').empty(places[Math.floor(Math.random()*places.length)]);
 }
 
 $(".done").click(function() {
@@ -116,8 +120,6 @@ $(".next").click(function()  {
 
 //begin
 $(".button2").click(function()  { 
-  $(".start-message").css("visibility","hidden");
-  $(".close-start-message").css("visibility","hidden");
   $('.start-message').toggleClass('show');
   $(".home").css("visibility","hidden");
   $(".game").css("visibility","visible");
