@@ -501,6 +501,6 @@ body, html {
 .start-message.show { display: block; }
 .start-message div { display: inline-block; }
 
-.text1, .text2 {
+.text1, .text2, .text3, .text4 {
   color: #00CDFF;
 }
